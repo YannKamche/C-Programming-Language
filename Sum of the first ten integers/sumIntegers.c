@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-//Calculates the sum of the first 10 integers
+//Calculates the sum of the first 10 positive intergers
 int sumOfIntegers() {
     int i, sum;
     sum = 0;
