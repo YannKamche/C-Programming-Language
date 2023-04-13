@@ -18,6 +18,14 @@ int main()
     else
         myBool = false;
     printf("%d", myBool);
+
+    // Variable naming
+    // A good variable must start with a lowercase letter or an underscore or should be separated with
+    // underscores
+    // 21carsold isn't a correct variable
+    // int the_number_of_car_sold
+    int car_sold;
+    double carSold;
     return 0;
 
 }
