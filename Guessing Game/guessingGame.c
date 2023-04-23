@@ -4,7 +4,7 @@
 #include <time.h>
 
 //function declaration
-char getUserName();
+void getUserName();
 void guessingGame();
 int getUserGuess(int);
 void checkGuess(int, int);
@@ -18,7 +18,7 @@ int main()
 }
 
 //function definition
-char getUserName() {
+void getUserName() {
     printf("Welcome to the World of fun!!!\nEnter your name: ");
     char userName[20];
     scanf("%s", userName);
